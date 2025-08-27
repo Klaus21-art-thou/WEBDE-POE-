@@ -16,4 +16,8 @@ the goal of this websitv is to Become a trusted resource for the local gaming co
 •	week 5: Website launch and promotion.
 
  www.businessplan-templates
+ https://sparkleskennesaw.com/
+https://www.arcademonsters.com/
+https://www.cruisecritic.co.uk/photos/ships/carnival-victory-175/video-arcade-256009/video-arcade--v12133155/
+
  
