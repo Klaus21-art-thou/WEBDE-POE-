@@ -15,6 +15,16 @@ the goal of this websitv is to Become a trusted resource for the local gaming co
 •	week 4: Content population, testing, and compliance with POPIA.
 •	week 5: Website launch and promotion.
 
+26/09/2025 update
+
+Html has updated to include the following:
+
+*Website now includes responsive design to enable smooth experience on multiple devices like mobile and pcs
+
+*Images now fit border of website to look less unorganized
+
+*Updated look of the website and included some borders and coloring to the website
+
  www.businessplan-templates
  https://sparkleskennesaw.com/
 https://www.arcademonsters.com/
