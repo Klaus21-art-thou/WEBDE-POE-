@@ -1,47 +1,57 @@
+/*methods used were provided by and consulted to by chat gpt open ai*/
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-   <title>Gamecave Services</title>
-   <link rel="stylesheet" type="text/css" href="css/Style.css">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       
-    </head>
-    <body>
-        <div class="container">
+<head>
+    <title>Gamecave Services</title>
+    <meta name="description" content="Explore the exciting services and offerings of Gamecave including arcade games, chill space, and tournaments">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
         <h1>What we Offer!</h1>
-
-        <h2>Arcade games</h2>
-
-        <img src="c:\Users\RC_Student_lab\Downloads\ST10466018 POE part 1\Images\1967e4a122d5686fd06568e001128f72--ray-narvaez-video-game-rooms.jpg">
-
-        <p> a wide arrange of games to play in which you can earn tickets which can be exchanged for prizes and much more
-
-        </p>
-        <h3>Chill Space</h3>
-        <img src="c:\Users\RC_Student_lab\Downloads\ST10466018 POE part 1\Images\AM+LKM+Opening-34.webp">
-
-      
-        <p> An area where you can hang out with your party and play all casual games while chowing down on some premium Tasty food! 
-
-            
-        </p>
-
-        <h4>Game Rumbles</h4>
-        <p>This is where we host tournaments for players who love the to fight it out to come out on top and recognized as the best of the best!</p>
-        <img src="c:\Users\RC_Student_lab\Downloads\ST10466018 POE part 1\Images\image_800x_.avif">
-
-        <nav>
-            <a href="Index.html">HomeCave</a> | <a href="About.html">About Us!</a> | <a href="services.html">What We Offer</a> | <a href="contact.html">Contact Details</a> | <a href="enquiry.html">Enquiry</a>
-        </nav>
+        <input type="text" id="serviceSearch" placeholder="Search Services..." class="search-input">
+        <div class="service-item">
+            <h2>Arcade Games</h2>
+            <img src="Images/image_800x_.jpg" alt="Arcade Games" class="gallery-img" width="100%">
+            <p>A wide selection of arcade games with ticket rewards and awesome prizes.</p>
         </div>
-        <footer>
-            
-            <p>@TheGameCave All Rights Reserved 2025</p> 
-            </footer>
-       
-            
-    </body>
-   
-
+        <div class="service-item">
+            <h3>Chill Space</h3>
+            <img src="Images/1967e4a122d5686fd06568e001128f72--ray-narvaez-video-game-rooms.jpg" alt="Chill Space" class="gallery-img" width="100%">
+            <p>An area where you can hang out with your party and play casual games while enjoying tasty food!</p>
+        </div>
+        <div class="service-item">
+            <h4>Game Rumbles</h4>
+            <img src="Images/AM+LKM+Opening-34.jpg" alt="Game Rumbles Tournament" class="gallery-img" width="100%">
+            <p>This is where we host tournaments for players who love to fight it out to come out on top and be recognized as the best!</p>
+        </div>
+        <div id="galleryLightbox" class="modal">
+            <span id="galleryClose" class="close-btn">&times;</span>
+            <img id="galleryImg" src="" alt="Expanded View" style="width:100%; border-radius:10px;">
+        </div>
+        <nav>
+            <a href="index.html">HomeCave</a> | <a href="about.html">About Us!</a> | <a href="services.html">What We Offer</a> | <a href="contact.html">Contact Details</a> | <a href="enquiry.html">Enquiry</a> | <a href="#" id="openLocation">Location</a>
+        </nav>
+    </div>
+    <div id="locationModal" class="modal">
+        <span id="locationClose" class="close-btn">&times;</span>
+        <h2>GameCave Location</h2>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.385309133004!2d18.47447111521032!3d-33.92486808065847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5d664ed2f4bf%3A0x7aab35ff8b5c05e4!2sCape%20Town%20City%20Centre!5e0!3m2!1sen!2sza!4v1666156178901!5m2!1sen!2sza" 
+          width="100%" 
+          height="250" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade" 
+          title="GameCave Location">
+        </iframe>
+        <p>123 Neon Street, Cyber City, 45678</p>
+    </div>
+    <footer>
+        <p>@TheGameCave All Rights Reserved 2025</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
 </html>

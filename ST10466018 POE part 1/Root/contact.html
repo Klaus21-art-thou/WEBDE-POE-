@@ -1,24 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-   <title>Gamecave Contact details </title>
-   <link rel="stylesheet" type="text/css" href="css/Style.css">
-    </head>
-    <body>
-        <div class="container">
-            <h1>Contact Us</h1>
-            <p>For any inquiries, feel free to reach out to us!</p>
-
-            <p><strong>Email:</strong> TheGameCave@gmail.com</p>
-            <p><strong>Phone:</strong> +1 (555) 123-4567</p>
-            <p><strong>Address:</strong> 123 Neon Street, Cyber City, 45678</p>
+<head>
+    <title>Gamecave Contact Details</title>
+    <meta name="description" content="Contact Gamecave for inquiries and support">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>For any inquiries, feel free to reach out to us!</p>
+        <p><strong>Email:</strong> TheGameCave@gmail.com</p>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p><strong>Address:</strong> 123 Neon Street, Cyber City, 45678</p>
+        
+       
+        <form id="contactForm" novalidate>
+            <label for="contactName">Name:</label>
+            <input type="text" id="contactName" name="name" required minlength="3" placeholder="Your Full Name">
             
-        <a href="Index.html">HomeCave</a> | <a href="About.html">About Us!</a> | <a href="services.html">What We Offer</a> | <a href="contact.html">Contact Details</a> | <a href="enquiry.html">Enquiry</a>
-        </div>
-        <footer>
-            <p>@TheGameCave All Rights Reserved 2025</p>
-     </footer>
-    </body>
-   
+            <label for="contactEmail">Email:</label>
+            <input type="email" id="contactEmail" name="email" required placeholder="Your Email Address">
+            
+            <label for="contactMessage">Your Message:</label>
+            <textarea id="contactMessage" name="message" rows="5" required placeholder="Your Message Here" minlength="10" maxlength="500"></textarea>
+            
+            <button type="submit" class="neon-btn">Send Message</button>
+        </form>
+        
+        <div id="contactFeedback" style="margin-top:10px;"></div>
 
+        <nav>
+            <a href="index.html">HomeCave</a> | <a href="about.html">About Us!</a> | <a href="services.html">What We Offer</a> | <a href="contact.html">Contact Details</a> | <a href="enquiry.html">Enquiry</a> | <a href="#" id="openLocation">Location</a>
+        </nav>
+    </div>
+
+    <div id="locationModal" class="modal">
+        <span id="locationClose" class="close-btn">&times;</span>
+        <h2>GameCave Location</h2>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.385309133004!2d18.47447111521032!3d-33.92486808065847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5d664ed2f4bf%3A0x7aab35ff8b5c05e4!2sCape%20Town%20City%20Centre!5e0!3m2!1sen!2sza!4v1666156178901!5m2!1sen!2sza" 
+          width="100%" 
+          height="250" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade" 
+          title="GameCave Location">
+        </iframe>
+        <p>123 Neon Street, Cyber City, 45678</p>
+    </div>
+    
+    <footer>
+        <p>@TheGameCave All Rights Reserved 2025</p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
 </html>

@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-   <title>The Gamecave</title>
-   <link rel="stylesheet" type="text/css" href="css/Style.css">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       
-    </head>
-    <body>
-        <div class="container">
-        <h1>Welcome to The Gamecave!</h1>
+<head>
+    <title>The Gamecave</title>
+    <meta name="description" content="Welcome to The Gamecave - Your ultimate gaming and fun destination!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="animatedGreeting"></h1>
         <p>Touching grass is overrated</p>
         <p>Where dreams are made reality as you step into a wonderland filled
             with all the fun and games that you and the family can enjoy! 
             Ranging from fun carnival rides and games where you could earn special tickets to earn
-            amazing prizes or if youre looking for a more casual experience then we have
-            a wide range of pvp and co-op games to play with or against friends and even a vr booth
+            amazing prizes or if you're looking for a more casual experience then we have
+            a wide range of PvP and co-op games to play with or against friends and even a VR booth
             to experience never before seen magical lands and even more!
         </p>
-        <p>The best part is thats not even half of what you could experience so why dont u come visit us
+        <p>The best part is that's not even half of what you could experience so why don't you come visit us
             today and experience a life changing trip to the Gamecave!
         </p>
-        
         <nav>
-            <a href="Index.html">HomeCave</a> | <a href="About.html">About Us!</a> | <a href="services.html">What We Offer</a> | <a href="contact.html">Contact Details</a> | <a href="enquiry.html">Enquiry</a>
-
+            <a href="index.html">HomeCave</a> | <a href="about.html">About Us!</a> | <a href="services.html">What We Offer</a> | <a href="contact.html">Contact Details</a> | <a href="enquiry.html">Enquiry</a> | <a href="#" id="openLocation">Location</a>
         </nav>
-        </div>
-    
-        
-        
-        <footer>
-            <p>@TheGameCave All Rights Reserved 2025</p>
-        </footer> 
-    </body>
-   
-
+    </div>
+    <div id="locationModal" class="modal">
+        <span id="locationClose" class="close-btn">&times;</span>
+        <h2>GameCave Location</h2>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.385309133004!2d18.47447111521032!3d-33.92486808065847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5d664ed2f4bf%3A0x7aab35ff8b5c05e4!2sCape%20Town%20City%20Centre!5e0!3m2!1sen!2sza!4v1666156178901!5m2!1sen!2sza" 
+          width="100%" 
+          height="250" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade" 
+          title="GameCave Location">
+        </iframe>
+        <p>123 Neon Street, Cyber City, 45678</p>
+    </div>
+    <footer>
+        <p>@TheGameCave All Rights Reserved 2025</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
 </html>
+/*methods used were provided by and consulted to by chat gpt open ai*/
