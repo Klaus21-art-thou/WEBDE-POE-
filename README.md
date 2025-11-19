@@ -25,9 +25,19 @@ Html has updated to include the following:
 
 *Updated look of the website and included some borders and coloring to the website
 
+20/11/2025 update
+
+Html has updated to include the following:
+
+*New Functionality of the website with new security methods
+*Animated Welcome Page to add some personality to the website
+*functionalities to the contact.html
+
+
  www.businessplan-templates
  https://sparkleskennesaw.com/
 https://www.arcademonsters.com/
 https://www.cruisecritic.co.uk/photos/ships/carnival-victory-175/video-arcade-256009/video-arcade--v12133155/
+https://chatgpt.com/
 
  
